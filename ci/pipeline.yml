@@ -2,7 +2,7 @@ resources:
   - name: concourse-php
     type: git
     source:
-      repository: git@github.com:mpfmedical/concourse-php
+      uri: git@github.com:mpfmedical/concourse-php
       private_key: {{GITHUB_PRIVATE_KEY}}
   - name: image
     type: docker-image
